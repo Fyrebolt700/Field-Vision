@@ -3,7 +3,8 @@ import numpy as np
 import time
 import sys
 
-VIDEO_SOURCE = 0 #Add
+# 0 goes to webcam
+VIDEO_SOURCE = 0 #Add path to video file
 
 BG_HISTORY = 500
 BG_THRESHOLD = 16    
