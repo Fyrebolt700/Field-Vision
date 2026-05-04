@@ -4,12 +4,13 @@ import time
 import sys
 
 # 0 goes to webcam
-VIDEO_SOURCE = 0 #Add path to video file
+# VIDEO_SOURCE = 0
+VIDEO_SOURCE = "herd.mp4"
 
 BG_HISTORY = 500
 BG_THRESHOLD = 16    
 BG_DETECT_SHADOWS = True
-MIN_CONTOUR_AREA = 800    
+MIN_CONTOUR_AREA = 800   
 MAX_CONTOUR_AREA = 50000  
 MORPH_KERNEL_SIZE = (5, 5)
 MORPH_DILATE_ITERS = 3    
