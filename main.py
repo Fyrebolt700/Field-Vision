@@ -3,9 +3,8 @@ import numpy as np
 import time
 import sys
 
-# 0 goes to webcam
-# VIDEO_SOURCE = 0
-VIDEO_SOURCE = "herd.mp4"
+# 0 goes to webcam, or can add path
+VIDEO_SOURCE = 0
 
 BG_HISTORY = 500
 BG_THRESHOLD = 16    
